@@ -1,0 +1,35 @@
+.main {
+    width: 90%;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px #000;
+    padding: 25px;
+    margin: 45px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main section{
+    width: 300px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;  
+    text-align: center;  
+}
+
+.main section button {
+    padding: 7px;
+    color: rgb(221, 215, 44);
+    border-radius: 10px;
+    background-color: rgb(50, 54, 58);
+    transition: 1s;
+}
+
+.main section button:hover {
+    background-color: aquamarine;
+    color: cadetblue;
+}
